@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Paste atom-markdown-image-paste",
+        "command": "atom-markdown-image-paste:paste"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-markdown-image-paste",
+          "submenu": [
+            {
+              "label": "Paste",
+              "command": "atom-markdown-image-paste:paste"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
