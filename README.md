@@ -4,13 +4,16 @@
 
 ## About
 
-This project was created to simplify taking screenshots and pasting them into markdown files for note takin and was developed to be used with the excellent [Atom Notes])(https://github.com/lexicalunit/atom-notes) package.
+This project was created to simplify pasting screenshots into markdown files.
 
 Currently, only files ending with a `.md` extension are supported.
 
 Image files are placed in a `images` subfolder. The image files are named based on the open document and the current time.
 
 - Example:
+
+  - `![](images/README_23-36-38.png)`
+
   ![](images/README_23-36-38.png)
 
 
