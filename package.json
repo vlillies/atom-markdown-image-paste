@@ -1,14 +1,14 @@
 {
   "name": "atom-markdown-image-paste",
   "main": "./lib/atom-markdown-image-paste",
-  "version": "1.0.0",
-  "description": "A simple Atom package to paste images into markdown files.",
+  "version": "0.0.0",
+  "description": "A simple Atom package to paste images into markdown files",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "atom-markdown-image-paste:paste"
   },
-  "repository": "https://github.com/atom/atom-markdown-image-paste",
+  "repository": "git@github.com:VernL/atom-markdown-image-paste.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
