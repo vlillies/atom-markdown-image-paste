@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-markdown-image-paste:paste"
   },
-  "repository": "git@github.com:VernL/atom-markdown-image-paste.git",
+  "repository": "https://github.com/VernL/atom-markdown-image-paste.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
