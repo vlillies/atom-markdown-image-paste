@@ -1,21 +1,19 @@
 # Atom Markdown Image Paste
 
-> A simple Atom package to paste images into markdown files
+> A simple Atom package to paste images into markdown and text files
 
 ## About
 
-This project was created to simplify pasting screenshots into markdown files.
+This project was created to simplify pasting screenshots into markdown and text notes. It is intended to be used along with the (fantastic) atom-notes package. 
 
-Currently, only files ending with a `.md` extension are supported.
-
-Image files are placed in a `images` subfolder. The image files are named based on the open document and the current time.
+Image files are placed in a sub folder named after the current document. All sub folders are contained within an `images` folder. Image files are named based on the the current time.
 
 - Example:
 
-  - `![](images/README_23-36-38.png)`
+  - `![](images/README/2019-03-24T02-45-09.png)`
 
-  ![](images/README_23-36-38.png)
-
+  ![](images/README/2019-03-24T02-45-09.png)
+  
 
 ## Install and usage
 
@@ -23,7 +21,7 @@ Install via apm or from within Atom. Find out about Atom Packages in the [Flight
 
 Take a screenshot.
 
-Place your cursor at the desired location and hit `ctrl + shift + V` to paste the image.
+Place your cursor at the desired location and hit `alt + shift + V` to paste the image.
 
 Voilà!
 
